@@ -1,4 +1,4 @@
-package BF.Strategy.Fly;
+package BF.Strategy.Duck.Fly;
 
 public interface FlyBehavior {
     void fly();

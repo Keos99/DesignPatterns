@@ -1,7 +1,7 @@
-package BF.Strategy.Ducks;
+package BF.Strategy.Duck.Ducks;
 
-import BF.Strategy.Fly.FlyBehavior;
-import BF.Strategy.Quack.QuackBehavior;
+import BF.Strategy.Duck.Fly.FlyBehavior;
+import BF.Strategy.Duck.Quack.QuackBehavior;
 
 public abstract class Duck {
     QuackBehavior quackBehavior;

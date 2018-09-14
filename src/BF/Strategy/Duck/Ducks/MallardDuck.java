@@ -1,7 +1,7 @@
-package BF.Strategy.Ducks;
+package BF.Strategy.Duck.Ducks;
 
-import BF.Strategy.Fly.FlyWithWings;
-import BF.Strategy.Quack.Quack;
+import BF.Strategy.Duck.Fly.FlyWithWings;
+import BF.Strategy.Duck.Quack.Quack;
 
 public class MallardDuck extends Duck {
 

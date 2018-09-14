@@ -1,6 +1,4 @@
-package BF.Strategy.Fly;
-
-import BF.Strategy.Fly.FlyBehavior;
+package BF.Strategy.Duck.Fly;
 
 public class FlyWithWings implements FlyBehavior {
     @Override
