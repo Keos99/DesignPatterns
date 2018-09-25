@@ -3,21 +3,21 @@ package BF.Observer.Display;
 import BF.Observer.Observer;
 import BF.Observer.WeatherData;
 
-public class ForecastDisplay implements Observer, Display{
-
+public class HeatIndexDisplay implements Observer, Display {
     private float temperature;
     private float humidity;
     private float pressure;
     private WeatherData weatherData;
 
-    public ForecastDisplay (WeatherData weatherData) {
+    public HeatIndexDisplay(WeatherData weatherData){
         this.weatherData = weatherData;
         weatherData.registerObserver(this);
     }
 
+
     @Override
     public void display() {
-        System.out.println("Forecast Display: " + temperature + humidity + pressure);
+
     }
 
     @Override
@@ -25,6 +25,5 @@ public class ForecastDisplay implements Observer, Display{
         this.temperature = temp;
         this.humidity = humidity;
         this.pressure = pressure;
-        display();
     }
 }
