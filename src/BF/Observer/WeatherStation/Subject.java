@@ -1,4 +1,4 @@
-package BF.Observer;
+package BF.Observer.WeatherStation;
 
 public interface Subject {
     void registerObserver (Observer observer);

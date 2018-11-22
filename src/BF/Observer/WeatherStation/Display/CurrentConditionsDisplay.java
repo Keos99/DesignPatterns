@@ -1,7 +1,7 @@
-package BF.Observer.Display;
+package BF.Observer.WeatherStation.Display;
 
-import BF.Observer.Observer;
-import BF.Observer.Subject;
+import BF.Observer.WeatherStation.Observer;
+import BF.Observer.WeatherStation.Subject;
 
 public class CurrentConditionsDisplay implements Observer, Display {
     private float temperature;

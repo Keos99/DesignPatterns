@@ -1,4 +1,4 @@
-package BF.Observer;
+package BF.Observer.WeatherStation;
 
 import java.util.ArrayList;
 

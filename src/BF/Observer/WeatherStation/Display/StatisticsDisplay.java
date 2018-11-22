@@ -1,7 +1,7 @@
-package BF.Observer.Display;
+package BF.Observer.WeatherStation.Display;
 
-import BF.Observer.Observer;
-import BF.Observer.WeatherData;
+import BF.Observer.WeatherStation.Observer;
+import BF.Observer.WeatherStation.WeatherData;
 
 public class StatisticsDisplay implements Observer, Display {
 
@@ -22,7 +22,9 @@ public class StatisticsDisplay implements Observer, Display {
 
     @Override
     public void update(float temp, float humidity, float pressure) {
-        System.out.println("StatisticsDisplay: " + temp + humidity + pressure);
+        this.temperature = temp;
+        this.humidity = humidity;
+        this.pressure = pressure;
         display();
     }
 }

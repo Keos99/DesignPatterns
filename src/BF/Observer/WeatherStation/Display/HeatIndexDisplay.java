@@ -1,7 +1,7 @@
-package BF.Observer.Display;
+package BF.Observer.WeatherStation.Display;
 
-import BF.Observer.Observer;
-import BF.Observer.WeatherData;
+import BF.Observer.WeatherStation.Observer;
+import BF.Observer.WeatherStation.WeatherData;
 
 public class HeatIndexDisplay implements Observer, Display {
     private float temperature;

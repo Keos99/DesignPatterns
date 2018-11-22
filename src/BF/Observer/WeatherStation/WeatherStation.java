@@ -1,8 +1,8 @@
-package BF.Observer;
+package BF.Observer.WeatherStation;
 
-import BF.Observer.Display.CurrentConditionsDisplay;
-import BF.Observer.Display.ForecastDisplay;
-import BF.Observer.Display.StatisticsDisplay;
+import BF.Observer.WeatherStation.Display.CurrentConditionsDisplay;
+import BF.Observer.WeatherStation.Display.ForecastDisplay;
+import BF.Observer.WeatherStation.Display.StatisticsDisplay;
 
 public class WeatherStation {
     public static void main(String[] args) {
